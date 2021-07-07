@@ -1,0 +1,312 @@
+*{
+	font-family: 'Times New Roman', Times, serif;
+}
+
+body
+{
+    border: 0;
+    margin: 0;
+	min-width: 1200px;
+	width: expression(document.body.clientWidth < 1200? "1200px": "100%" )/*最小宽度设置*/;
+	width:100%;
+}
+
+/* navigation bar  */
+.navidation_bar
+{
+	background-color: rgb(51,161,201);
+    height: 3.125rem;
+    padding: 2px;
+	top: 0;
+	z-index: 10;
+	min-width: 1200px;
+	width: 100%/*最小宽度设置*/;
+}
+
+
+a.navibar:link {    /* 未被访问的链接   */
+    color: White;
+    text-decoration: none;
+}
+a.navibar:visited {    /* 被访问过的链接 */
+    color: White;
+	text-decoration: none;
+}
+a.navibar:hover {    /* 鼠标移到链接上 */
+    color: rgb(255,111,91);
+    text-decoration: none;
+}
+a.navibar:active {    /* 正在点击的链接  */
+    color: rgb(255,111,91);
+	text-decoration: none;
+}
+
+a.contenta:link {    /* 未被访问的链接   */
+    color: rgb(28,42,69);
+
+}
+a.contenta:visited {    /* 被访问过的链接 */
+    color: rgb(28,42,69);
+}
+a.contenta:hover {    /* 鼠标移到链接上 */
+    color: rgb(255,111,91);
+    font-style: italic;
+}
+a.contenta:active {    /* 正在点击的链接  */
+    color: rgb(255,111,91);
+	font-style: italic;
+}
+
+a.ba:link {    /* 未被访问的链接   */
+    color: white;
+}
+a.ba:visited {    /* 被访问过的链接 */
+    color: white;
+}
+a.ba:hover {    /* 鼠标移到链接上 */
+    color: white;
+}
+a.ba:active {    /* 正在点击的链接  */
+    color: white;
+}
+
+font.target
+{
+	color: rgb(0,0,0);
+}
+
+p.top
+{
+	word-spacing: 5rem;
+	text-align: center;
+}
+/* navigation bar  */
+
+.content
+{
+	min-width: 1200px;
+    width: expression(document.body.clientWidth < 1200? "1200px": "100%" )/*最小宽度设置*/;
+}
+/* content home  */
+
+.yhf
+{
+	background-color: White;
+	width: 100%;
+    padding: 2px;
+	color: rgb(28,42,69);
+}
+
+.img_yhf
+{
+	padding-left:19rem;
+}
+
+
+#yhf_img
+{
+	width: 200;
+	height: 18.75rem;
+
+}
+li.homeli
+{
+	list-style: none;
+	padding-left: 0rem;
+}
+#contact
+{
+	max-width: 29rem;
+	padding-left: 1rem;
+}
+#yhblock
+{
+	min-width: 1200px;
+	width: expression(document.body.clientWidth < 1200? "1200px": "100%" )/*最小宽度设置*/;
+}
+
+.name
+{
+	text-align: center;
+	font-size: 2em;
+	font-weight: bold;
+	border: 0;
+    margin: 0;
+	padding-top: 1.25rem;
+}
+
+#post
+{
+	text-align: center;
+	border: 0;
+    margin: 0;
+}
+
+
+#hellowords
+{
+	border: 0;
+    margin: 0;
+	text-align: center;
+}
+
+#highlight
+{
+	font-weight: bold;
+	color: rgb(255,111,91);
+}
+
+.Biosketch
+{
+	background-color: rgb(211,222,227);
+	width: 100%;
+    padding: 2px;
+	color: rgb(28,42,69);
+	margin: 0;
+	border: 0;
+}
+
+p.yhfs_Biosketch
+{
+	padding-left: 9.5rem;
+	padding-right: 9.5rem;
+	text-align: justify;
+	text-indent:3em;
+}
+
+/* content home  */
+
+/* content resume  */
+.whiteblock
+{
+	background-color: White;
+	width: 100%;
+    padding: 2px;
+	color: rgb(28,42,69);
+}
+.whiteblock > h2
+{
+    padding-left: 5rem;	
+}
+.whiteblock > ul > li
+{
+    margin-left: 10rem;	
+	padding-right: 8.125rem;
+}
+.whiteblock > ol > li
+{
+    margin-left: 10rem;	
+	padding-right: 8.125rem;
+	font-family:Times New Roman;
+}
+.whiteblock > h4
+{
+    padding-left: 8rem;	
+}
+
+.blueblock
+{
+	background-color: rgb(211,222,227);
+	width: 100%;
+    padding: 2px;
+	color: rgb(28,42,69);
+}
+.blueblock > h2
+{
+    padding-left: 5rem;	
+}
+.blueblock > ul > li
+{
+    margin-left: 10rem;	
+	padding-right: 8.125rem;
+}
+.blueblock > ol > li
+{
+    margin-left: 10rem;	
+	padding-right: 8.125rem;
+	font-family:Times New Roman;
+}
+.blueblock > h4
+{
+    margin-left: 8rem;	
+}
+
+
+/* content resume  */
+
+/* content publications  */
+
+/* content publications  */
+
+/* content research  */
+
+/* content research  */
+
+/* content student  */
+
+.student
+{
+	min-width: 800px;
+	width: expression(document.body.clientWidth < 800? "800px": "100%" )/*最小宽度设置*/;
+}
+
+div.student_jpg
+{
+	padding-left:12rem;
+}
+.student > div > img
+{
+	width:150px;
+	height:225px;
+    /* border-radius:50% */
+}
+.student > div > p
+{
+	max-width: 45rem;
+	padding-left:1rem;
+}
+/* content student  */
+
+.student2
+{
+	min-width: 800px;
+	width: expression(document.body.clientWidth < 800? "800px": "100%" )/*最小宽度设置*/;
+}
+
+div.student2_jpg
+{
+	padding-left:12rem;
+}
+.student2 > div > img
+{
+	width:150px;
+	height:150px;
+    /* border-radius:50% */
+}
+.student2 > div > p
+{
+	max-width: 45rem;
+	padding-left:1rem;
+}
+/* content student2  */
+
+
+.bottom
+{
+	width:100%;
+	padding: 2px;
+	border: 0;
+	margin: 0;
+	background-color: rgb(65,138,179);
+	color:white;
+	text-align: center;
+}
+
+.bigjpg
+{
+	width:50%;
+	height:370px;
+	float:left;
+	display:inline;
+	padding-bottom:10px;
+}
