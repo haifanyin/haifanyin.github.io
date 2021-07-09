@@ -4,7 +4,7 @@
         <meta http-equiv="Content-Type" content="text/html" charset="utf-8">
         <meta content="Haifan Yin" name="Author">		
         <title>Haifan Yin's Homepage</title> 
-		<link rel="stylesheet" type="text/css" href="mystyle.css">
+		<link rel="stylesheet" type="text/css" href="./mystyle.css">
 		<meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=5.0,minimum-scale=0.3,user-scalable=yes">
     </head>
 	
@@ -18,17 +18,121 @@
 			<a href="students.html" class="navibar">Students</a></p>
 		</div>
  
-        <div class="content" class="reserch">
+        <div class="content">
  
-            <div class="whiteblock">
-			    <h2>Some of my previous posts on Massive MIMO:</h2>
+            
+			
+			 <div class="whiteblock">
+			    <h2>Massive MIMO</h2>
+
+		        </div>
+				<div class="research">
+				<div class="research_jpg" style="display:inline-block;vertical-align:middle">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="./photos/mMIMO.jpg" alt="research.img" width="500"></div>
+				<div style="display:inline-block;vertical-align:middle; width: 800px"><p><br>
+				<ul>
+                <p>Massive MIMO is one of the key enablers of the 5G cellular systems. Compared to traditional MIMO with fewer base station antennas, massive MIMO can offer unprecedented spectral efficiency gains. One of the basic concepts is based on the fact that, as the number of base station antennas increases, the vector channel for a desired UE grows more orthogonal to the vector channel of an interfering user, thus allowing the base station to reject interference by inexpensive precoding methods, provided that Channel State Information (CSI) is known at base station. CSI acquisition is known to be a formidable problem in massive MIMO… </p>
+                </ul>
+				</p></div>
+			    </div>
+		
+		  <div class="whiteblock">
+			    <h3>The Curse of Mobility</h3>
+
+		        
+				<div class="research">
+				<div class="research_jpg" style="display:inline-block;vertical-align:middle">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="./photos/Mobility.png" alt="CurseOfMobility" width="500"></div>
+				<div style="display:inline-block;vertical-align:middle; width: 800px"><p><br>
+				<ul>
+                <p>Despite the technology hype and great expectations behind massive MIMO, some of the latest field trials have unfortunately been disappointing when it comes to actual system performance. In particular it appeared that CSI acquisition can be severely affected in mobility scenarios. It was for instance observed in industrial settings that the moderate-mobility scenario at 30 km/h leads to as much as 50% of the performance reduction versus in low-mobility scenario at 3 km/h.</p>
+				<p>Preliminary results to address the curse of mobility:</p>
+			    <p>[1] H. Yin, H. Wang, Y, Liu, and D. Gesbert, "Addressing the curse of mobility in massive MIMO with Prony-based angular-delay domain channel predictions," IEEE Journal on Selected Areas in Communications, Vol. 38, No. 12, pp. 2903-2917, Dec. 2020.</p>
+				</p>
+                </ul>
+				</p></div>
+			    </div>
+	     </div>
+
+        <div class="whiteblock">
+        <h3>FDD Massive MIMO</h3>
+
+				<div class="research">
+				<div class="research_jpg" style="display:inline-block;vertical-align:middle">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="./photos/FDD.png" alt="FDD_massiveMIMO.img" width="500"></div>
+				<div style="display:inline-block;vertical-align:middle; width: 800px"><p><br>
+				<ul>
+                <p>The acquisition of CSI in Frequency Division Duplex (FDD) massive MIMO has been a long-lasting problem. Unlike in Time Division Duplex (TDD) mode, the UL and DL channels in FDD are typically non-reciprocal. As a result, the DL CSI is mainly obtained by closed-loop feedback methods. This traditional CSI feedback scheme suffers from two problems, 1) the time-frequency resource spent on the reference signals increases quickly with the number of base station antennas, leaving less resource for data transmission; and 2) the CSI feedback is always corrupted by quantization errors.</p>
+				<p>Preliminary results for FDD massive MIMO:</p>
+			    <p>[1] H. Yin, and D. Gesbert, "A partial channel reciprocity-based codebook for wideband FDD massive MIMO," Submitted, June. 2021.</p>
+				</p>
+                </ul>
+				</p></div>
+			    </div>
+        </div>
+
+        <div class="whiteblock">
+        <h3>Pilot Contamination</h3>
+				<div class="research">
+				<div class="research_jpg" style="display:inline-block;vertical-align:middle">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="./photos/PilotContamination.png" alt="Pilot_Contamination.img" width="500"></div>
+				<div style="display:inline-block;vertical-align:middle; width: 800px"><p><br>
+				<ul>
+                <p>In reality, CSI is acquired on the basis of finite-length pilot sequences, and crucially, in the presence of inter-cell interference. Therefore, the pilot sequences from neighboring cells would contaminate each other. Pilot contamination constitutes a bottleneck for performance, thereby undermining the value of massive MIMO systems in cellular networks. </p>
+				<p>Some results on pilot decontamination:</p>
+			    <p>[1] H. Yin, D. Gesbert, M. Filippou, and Y. Liu, "A coordinated approach to channel estimation in large-scale multiple-antenna systems," IEEE Journal on Selected Areas in Communications, special issue on large-scale antenna systems, Vol. 31, No. 2, pp. 264-273, Feb. 2013.</p>
+				<p>[2] H. Yin, L. Cottatellucci, D. Gesbert, R. R. Muller, and G. He, "Robust pilot decontamination based on joint angle and power domain discrimination," IEEE Transactions on Signal Processing, Vol. 64, No. 11, pp. 2990-3003, Jun. 2016.</p>
+				<p>[3] H. Yin, D. Gesbert, and L. Cottatellucci, "Dealing with interference in distributed large-scale MIMO systems: A statistical approach," IEEE Journal of Selected Topics in Signal Processing, Vol. 8, No. 5, pp. 942-953, Oct. 2014.</p>
+				</p>
+                </ul>
+				</p></div>
+			    </div>
+       </div>
+			<div class="whiteblock">
+			    <h3>Some of my previous posts on pilot decontamination:</h3>
                 <ul>
                 <li><A href="https://haifanyin.wordpress.com/2016/07/27/low-rankness-post/" class="contenta">The low-rankness property of massive MIMO channels</A> </li>
 	            <li><A href="https://haifanyin.wordpress.com/2016/08/01/pilot-decontamination-in-angular-domain/" class="contenta">Pilot decontamination in angular domain</A> </li>
 	            <li><A href="https://haifanyin.wordpress.com/2016/08/16/pilot-decontamination-in-joint-angle-and-power-domain/" class="contenta">Pilot decontamination in joint angle and power domain</A> </li>
                 </ul>
 		    </div>
-			
+      <div class="whiteblock">
+      <h2>Reconfigurable Intelligent Surface</h2>
+
+				<div style="display:inline-block;vertical-align:middle; width: 800px"><p><br>
+				<ul>
+                <p>Reconfigurable Intelligent Surface (RIS) is a novel technique inspired by recent advances in electromagnetic metamaterials. Such metamaterials have unique electromagnetic properties that do not exist in nature, such as, negative refraction, perfect absorption, and anomalous reflection/scattering. By varying the reflection coefficient (e.g., phase shift) of the elements on RIS, one can control towards which location an incident wave is beamformed. Due to the very low cost and power consumption, RIS is believed to be one of the key technologies for 5G+/6G. </p>
+                </ul>
+				</p></div>
+				
+	  </div>
+      
+      <div class="whiteblock">
+        <h3>Prototyping of RIS</h3>
+
+				<div class="research">
+				<div class="research_jpg" style="display:inline-block;vertical-align:middle">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="./photos/RIS_prototype.jpg" alt="RIS_prototype..img" width="500"></div>
+				<div style="display:inline-block;vertical-align:middle; width: 800px"><p><br>
+				<ul>
+                <p>We put the concept of RIS to practice by designing an RIS-enhanced wireless communication prototype and using it for indoor/outdoor field trials. </p>
+			    <p>[1] X. Pei, H. Yin, L. Tan, L. Cao, Z. Li, K. Wang, K. Zhang, E. Björnson, "RIS-aided wireless communications: Prototyping, adaptive beamforming, and indoor/outdoor field trials," submitted, available online: https://arxiv.org/abs/2103.00534, Feb. 2021.</p>
+				</p>
+                </ul>
+				</p></div>
+			    </div>
+       </div>
+
+       <div class="whiteblock">
+        <h3>Measurement and Modeling of RIS</h3>
+
+				<div class="research">
+				<div class="research_jpg" style="display:inline-block;vertical-align:middle">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="./photos/RIS_modeling.jpg" alt="research.img" width="500"></div>
+				<div style="display:inline-block;vertical-align:middle; width: 800px"><p><br>
+				<ul>
+                <p> A central issue with RIS is how much power they can effectively convey to the target radio nodes. Regarding this question, we propose a novel received power model and measure the received power with our experimental platform in different scenarios to validate our model. </p>
+			    <p>[1] Z. Wang, L. Tan, H. Yin, K. Wang, X. Pei, and D. Gesbert, "A received power model for reconfigurable intelligent surface and measurement-based validations," to appear in IEEE International Workshop on Signal Processing Advances in Wireless Communications (SPAWC 2021), Sept. 2021, Lucca, Italy. </p>
+				</p>
+                </ul>
+				</p></div>
+			    </div>
+        </div>
+     
 			<div class="bottom">
 		    <p>Navigation: <a href="index.html" class="ba"> Home </a>/
             <!--<a href="resume.html" class="ba"> Resume </a>/-->
@@ -37,7 +141,8 @@
 			<a href="students.html" class="ba"> Students </a></p>
 		    </div>
 	
-        </div>
  
+        </div>
+    
     </body>
 </html>
