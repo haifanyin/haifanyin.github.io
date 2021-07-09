@@ -271,23 +271,23 @@ div.student_jpg
 }
 /* content student  */
 
-.student2
+.research
 {
 	min-width: 800px;
 	width: expression(document.body.clientWidth < 800? "800px": "100%" )/*最小宽度设置*/;
 }
 
-div.student2_jpg
+div.research_jpg
 {
 	padding-left:12rem;
 }
-.student2 > div > img
+.research > div > img
 {
-	width:150px;
-	height:150px;
+	width:490px;
+	height:350px;
     /* border-radius:50% */
 }
-.student2 > div > p
+.research > div > p
 {
 	max-width: 45rem;
 	padding-left:1rem;
