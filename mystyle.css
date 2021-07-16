@@ -6,7 +6,6 @@ body
 {
     border: 0;
     margin: 0;
-	min-width: 1200px;
 	width: expression(document.body.clientWidth < 1200? "1200px": "100%" )/*最小宽度设置*/;
 	width:100%;
 }
@@ -14,13 +13,15 @@ body
 /* navigation bar  */
 .navidation_bar
 {
+	/*background-color: rgb(28,42,69);*/
 	background-color: rgb(51,161,201);
     height: 3.125rem;
     padding: 2px;
 	top: 0;
 	z-index: 10;
-	min-width: 1200px;
 	width: 100%/*最小宽度设置*/;
+	word-wrap:break-word;
+	word-break:normal; 
 }
 
 
@@ -43,7 +44,6 @@ a.navibar:active {    /* 正在点击的链接  */
 
 a.contenta:link {    /* 未被访问的链接   */
     color: rgb(28,42,69);
-
 }
 a.contenta:visited {    /* 被访问过的链接 */
     color: rgb(28,42,69);
@@ -72,7 +72,9 @@ a.ba:active {    /* 正在点击的链接  */
 
 font.target
 {
+	/*color: rgb(255,111,91);*/
 	color: rgb(255,255,255);
+
 }
 
 p.top
@@ -83,8 +85,7 @@ p.top
 /* navigation bar  */
 
 .content
-{
-	min-width: 1200px;
+{;
     width: expression(document.body.clientWidth < 1200? "1200px": "100%" )/*最小宽度设置*/;
 }
 /* content home  */
@@ -121,7 +122,6 @@ li.homeli
 }
 #yhblock
 {
-	min-width: 1200px;
 	width: expression(document.body.clientWidth < 1200? "1200px": "100%" )/*最小宽度设置*/;
 }
 
@@ -188,10 +188,6 @@ p.yhfs_Biosketch
 {
     padding-left: 5rem;	
 }
-.whiteblock > h3
-{
-    padding-left: 5rem;	
-}
 .whiteblock > ul > li
 {
     margin-left: 10rem;	
@@ -250,7 +246,6 @@ p.yhfs_Biosketch
 
 .student
 {
-	min-width: 800px;
 	width: expression(document.body.clientWidth < 800? "800px": "100%" )/*最小宽度设置*/;
 }
 
@@ -271,23 +266,22 @@ div.student_jpg
 }
 /* content student  */
 
-.research
+.student2
 {
-	min-width: 800px;
 	width: expression(document.body.clientWidth < 800? "800px": "100%" )/*最小宽度设置*/;
 }
 
-div.research_jpg
+div.student2_jpg
 {
 	padding-left:12rem;
 }
-.research > div > img
+.student2 > div > img
 {
-	width:490px;
-	height:350px;
+	width:150px;
+	height:150px;
     /* border-radius:50% */
 }
-.research > div > p
+.student2 > div > p
 {
 	max-width: 45rem;
 	padding-left:1rem;
