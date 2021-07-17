@@ -6,6 +6,7 @@ body
 {
     border: 0;
     margin: 0;
+	min-width: 1000px;
 	width: expression(document.body.clientWidth < 1200? "1200px": "100%" )/*最小宽度设置*/;
 	width:100%;
 }
